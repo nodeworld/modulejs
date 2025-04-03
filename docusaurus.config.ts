@@ -33,8 +33,12 @@ const config: Config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       {
+        gtag: {
+          trackingID: 'G-YZ2H67QDSW',
+          anonymizeIP: false,
+        },
         docs: {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
