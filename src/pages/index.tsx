@@ -4,7 +4,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
-
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -19,12 +18,12 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="docs/react/introduction/intro">
             React Autocomplete
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="docs/angular/introduction/intro">
             Angular Autocomplete
           </Link>
         </div>
