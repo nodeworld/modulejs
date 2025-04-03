@@ -34,6 +34,17 @@ const sidebars: SidebarsConfig = {
     },
     'react/examples/stackblitz',
     'react/others/others'
+  ],
+  vueSidebar: [
+    {
+      'Introduction': ['vue/introduction/intro', 'vue/introduction/package_info', 'vue/introduction/package_versions', 'vue/introduction/other_information'],
+    },
+    'vue/installation/install',
+    {
+      'API': ['vue/api/props', 'vue/api/using_module', 'vue/api/class_style', 'vue/api/aria'],
+    },
+    'vue/examples/stackblitz',
+    'vue/others/others'
   ]
 
   // But you can create a sidebar manually

@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Module JS',
-  tagline: 'Top Autocomplete Tools for React, Angular and Vue*',
+  tagline: 'Top Autocomplete Tools for React, Angular and Vue',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -94,6 +94,11 @@ const config: Config = {
           to: 'docs/angular/introduction/intro',
         },
         {
+          position: 'left',
+          label: 'Vue',
+          to: 'docs/vue/introduction/intro',
+        },
+        {
           href: 'https://github.com/nodeworld',
           label: 'GitHub',
           position: 'right',
@@ -113,6 +118,10 @@ const config: Config = {
             {
               label: 'Angular',
               to: '/docs/angular/introduction/intro',
+            },
+            {
+              label: 'Vue',
+              to: '/docs/vue/introduction/intro',
             }
           ],
         },

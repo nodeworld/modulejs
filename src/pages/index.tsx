@@ -26,6 +26,11 @@ function HomepageHeader() {
             to="docs/angular/introduction/intro">
             Angular Autocomplete
           </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="docs/vue/introduction/intro">
+            Vue Autocomplete
+          </Link>
         </div>
       </div>
     </header>
